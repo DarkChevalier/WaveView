@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaveView">
+
+        <attr name="backgroundColor" format="color" />
+        <attr name="firstWaveColor" format="color" />
+        <attr name="secondWaveColor" format="color" />
+        <attr name="waveSize" format="dimension" />
+        <attr name="waterProgress" format="float" />
+        <!-- 10 到 50之间比较合适-->
+        <attr name="amplitude" format="integer" />
+        <!-- 1 到 6 之间比较合适 -->
+        <attr name="speed" format="integer" />
+    </declare-styleable>
+
+</resources>
